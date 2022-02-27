@@ -5,7 +5,7 @@
   Steve is a recent finance graduate who is helping his parents decide which green energy companies they should be buying stock in. They had originally bought stock in DQ, but after finding that this company has not been performing well, data on 11 other green energy companies was perfomred in order to help his parents choose the best company to invest in. Steve was also interested in adding data on how the entire stock market has performed over the years 2017 and 2018, in order to provide his parents with more research. 
 ## Results of Stock Performance
   Based on the code that was ran, I was able to see the total daily volume and percent return for each of the 12 stocks included in this data set for the years 2017 and 2018. A table of the 2017 daily volume and percent return can be seen below:
-  ![This is an image](https://github.com/dsilvaggio/Stock-Analysis/blob/26542694a23710ec57f1fc0ea3a9495de3c14d82/Resources/Screen%20Shot%202022-02-27%20at%2011.30.48%20AM.png)
+  ![This is an image](Resources/2017 _data.png)
   All but 1 of these stocks in 2017 had a positive yearly return, meaning that all but 1 of these stocks experienced an increase in their price. This means that these 11 stocks would have netted an increase in your investment. 
   However, the year 2018 showed a much different picture. A table of the 2018 daily volume and percent return can be seen below:
 ! [This is an image](Resources/Screen Shot 2022-02-27 at 11.31.45 AM.png)
