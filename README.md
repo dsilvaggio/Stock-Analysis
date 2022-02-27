@@ -9,7 +9,8 @@
   
   All but 1 of these stocks in 2017 had a positive yearly return, meaning that all but 1 of these stocks experienced an increase in their price. This means that these 11 stocks would have netted an increase in your investment. 
   However, the year 2018 showed a much different picture. A table of the 2018 daily volume and percent return can be seen below:
-! [This is an image](Resources/Screen Shot 2022-02-27 at 11.31.45 AM.png)
+  
+![This is an image](https://github.com/dsilvaggio/Stock-Analysis/blob/e1da3a7919ebceecf866c633b42ad3b38a199cc9/Resources/2018_data.png)
 
   In 2018, only 2 stocks on this list had a positive yearly return, which means that most of the stocks listed experience a decrease in their stock price. We can also see that the total daily volume for these 10 stocks dramatically decreased from 2017 as well. This means that these 10 stocks were traded significantly less in 2018 then they were in 2017.
    There were 2 stocks that maintained a positive yearly return as well as significantly increased their total daily volume between 2017 and 2018. These 2 companies are referred to with the ticker symbol ENPH and RUN. These would be companies that I would suggest Steve's parents look at investing into.  
