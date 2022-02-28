@@ -71,4 +71,6 @@
 ```
 
 ## Summary
+	The biggest advantage that I noticed with refactoring code is that it significantly decreases the amount of time it takes to run the code. I could see this being extremely helpful if you are working with 1,000s of data points and would not want your computer to take to long or time out when trying to run the code that you have written. Another advantage of refactoring is that you do not need to rewrite the entire code to make it something completely new. I was able to make edits to much of the code that I had previously written. 
+	Some disadvantage or challenged that I had when refactoring was understanding the difference between a single variable and an array. At first, I was trying to replace the original variables with the new "tickerVolume", "tickerEndingPrices", and "tickerStartingPrices" that I had created. When this was not working, I realized that when referencing an array you also need to include the index that you are referencing within the array. This is when I was fully able to see what was happening with the tickerIndex that I had created. When I went back and added the tickerIndex in paranthesis next to the arrays I was referencing, my code was able to run successfully. When replacing singular variables with arrays, it can be challenging to make sure that you are using the correct code for each. 
 
