@@ -65,3 +65,7 @@
     Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
     
     ```
+I have also included a screenshot of the new run times for both 2017 and 2018 below:
+
+![This is an image] (Resources/2017_run_time.png)
+![This is an image] (Resources/2018_run_time.png)
