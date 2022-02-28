@@ -16,8 +16,8 @@
    There were 2 stocks that maintained a positive yearly return as well as significantly increased their total daily volume between 2017 and 2018. These 2 companies are referred to with the ticker symbol ENPH and RUN. These would be companies that I would suggest Steve's parents look at investing into.  
 ## Analysis of Refactored Code
   Prior to refactoring the code, our orignal code was only running across 1 array that we had named "ticker". This was allowing us to quickly see the daily volume and percent return of each of the 12 tickers listed in the spread sheet. When running this code, my computer was taking around 0.7 seconds to display the information for both 2017 and 2018. I then decided to add 3 more arrays that would allow us to run this code across multiple different ticker values. This would allow us to use the data of 1,000's of different stocks instead of just the 12 included in this worksheet. When refactoring the code, I did not need to write new code at all. I was able to reuse the original code, but I just needed to replace the original variables of "total volume", "startingPrice" and "endingPrice" with the new arrays that I had created. The time it took to run the new code is below: 
- ![This is an image] (Resources/2017_run_time.png)
- ![This is an image] (Resources/2018_run_time.png)
+ ![This is an image](Resources/2017_run_time.png)
+ ![This is an image](https://github.com/dsilvaggio/Stock-Analysis/blob/53efd5cb433a5609de63c921a495cbed0e5a23f2/Resources/2018_run_time.png)
  This was significantly less time than my first code. My refactored code that I had to change can be seen below. 
  
 ```
