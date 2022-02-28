@@ -17,7 +17,6 @@
 ## Analysis of Refactored Code
   Prior to refactoring the code, our orignal code was only running across 1 array that we had named "ticker". This was allowing us to quickly see the daily volume and percent return of each of the 12 tickers listed in the spread sheet. When running this code, my computer was taking around 0.7 seconds to display the information for both 2017 and 2018. I then decided to add 3 more arrays that would allow us to run this code across multiple different ticker values. This would allow us to use the data of 1,000's of different stocks instead of just the 12 included in this worksheet. When refactoring the code, I did not need to write new code at all. I was able to reuse the original code, but I just needed to replace the original variables of "total volume", "startingPrice" and "endingPrice" with the new arrays that I had created. My new code ran in 0.11 and 0.14 seconds for 2017 and 2018 respectively. This was significantly less time than my first code. My refactored code can be seen below. 
   ```
-  
   '1a) Create a ticker Index
         tickerIndex = 0
 
@@ -63,10 +62,5 @@
     Cells(4 + i, 1).Value = tickers(i)
     Cells(4 + i, 2).Value = tickerVolumes(i)
     Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
-    
     ```
-I have also included a screenshot of the new run times for both 2017 and 2018 below:
-
-![This is an image] (Resources/2017_run_time.png)
-![This is an image] (https://github.com/dsilvaggio/Stock-Analysis/blob/5f46baa1bdc05c2d329514aeb7dfad3cd58b2bca/Resources/2018_run_time.png)
 
