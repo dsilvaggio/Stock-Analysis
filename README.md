@@ -68,4 +68,5 @@
 I have also included a screenshot of the new run times for both 2017 and 2018 below:
 
 ![This is an image] (Resources/2017_run_time.png)
-![This is an image] (Resources/2018_run_time.png)
+![This is an image] (https://github.com/dsilvaggio/Stock-Analysis/blob/5f46baa1bdc05c2d329514aeb7dfad3cd58b2bca/Resources/2018_run_time.png)
+
