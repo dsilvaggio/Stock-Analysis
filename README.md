@@ -70,5 +70,5 @@
     Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
 ```
 
-    
+## Summary
 
